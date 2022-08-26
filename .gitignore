@@ -1,0 +1,8 @@
+*
+!/.gitignore
+!/README.md
+!/fish/**
+!/nvim/**
+!/river/**
+!/waybar/**
+!/wezterm/**

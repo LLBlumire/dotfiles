@@ -1,0 +1,13 @@
+{
+    "layer": "bottom",
+    "height": 20,
+    "modules-left": ["river/tags"],
+    "modules-center": ["river/window"],
+    "modules-right": ["clock"],
+    "river/window": {
+        "max-length": 50
+    },
+    "clock": {
+        "format": "{:%Y-%m-%d %H:%M:%S}"
+    }
+}
