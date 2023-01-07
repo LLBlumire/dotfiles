@@ -8,7 +8,6 @@ return {
         top = 0,
         bottom = 0,
     },
-    font = wezterm.font("JetBrains Mono"),
     line_height = 1.125,
     font_size = 12,
 }
