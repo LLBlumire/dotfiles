@@ -1,7 +1,5 @@
 local wezterm  = require('wezterm')
 return {
-    default_prog = { 'C:\\Program Files\\PowerShell\\7\\pwsh.exe' },
-    color_scheme_dirs = { 'C:\\Users\\LLBlumire\\AppData\\Roaming\\wezterm\\colors' },
     color_scheme = 'carbonfox',
     enable_tab_bar = false,
     window_padding = {
