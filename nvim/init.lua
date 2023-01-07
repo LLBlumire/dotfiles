@@ -1,1 +1,4 @@
-require("llblumire")
+require("config.options")
+require("config.mappings")
+require("config.shell")
+require("config.lazy")
