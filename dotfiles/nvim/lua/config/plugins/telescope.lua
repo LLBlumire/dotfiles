@@ -25,9 +25,9 @@ function M.config()
     vim.keymap.set('n', '<leader>f', telescope_builtin.find_files, { desc = "Search Files" })
     vim.keymap.set('n', '<leader>sf', telescope_builtin.find_files, { desc = "Files" })
     vim.keymap.set('n', '<leader>sb', telescope_builtin.buffers, { desc = "Buffers" })
-    vim.keymap.set('n', '<leader>lr', telescope_builtin.lsp_references, { desc = "References" })
+    vim.keymap.set('n', '<leader>lu', telescope_builtin.lsp_references, { desc = "References" })
     vim.keymap.set('n', '<leader>ld', telescope_builtin.lsp_definitions, { desc = "Definitions" })
-    vim.keymap.set('n', '<leader>li', telescope_builtin.lsp_implementations, { desc = "Implementations" })
+    vim.keymap.set('n', '<leader>lm', telescope_builtin.lsp_implementations, { desc = "Implementations" })
     vim.keymap.set('n', '<leader>la', function() vim.lsp.buf.code_action() end, { desc = "Code Actions" })
 end
 
