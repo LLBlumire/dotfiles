@@ -6,9 +6,8 @@ local M = {
 }
 
 function M.config()
-    local cmd = vim.cmd
-    cmd([[highlight clear]])
-    cmd([[colorscheme carbonfox]])
+    vim.cmd.highlight("clear")
+    vim.cmd.colorscheme("carbonfox")
 end
 
 return M
